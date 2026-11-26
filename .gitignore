@@ -1,0 +1,22 @@
+# Credentialed PhysioNet data and anything derived from it: never commit
+data/
+outputs/*.npz
+outputs/*.pkl
+outputs/*.csv
+models/*.pt
+*.npz
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
